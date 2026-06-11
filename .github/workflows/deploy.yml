@@ -17,5 +17,5 @@ jobs:
 
       - name: Run Python
 
-        run: python app.py
+        run: python multi.py
   
