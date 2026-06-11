@@ -6,16 +6,12 @@ on:
       - main
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - uses: actions/checkout@v4
 
-      - name: Run Python
-
-        run: python multi.py
+      - name: Run Python File
+        run: python app.py
   
