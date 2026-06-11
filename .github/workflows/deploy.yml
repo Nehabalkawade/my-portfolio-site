@@ -17,5 +17,5 @@ on:
 
   -name:Run python
   
-  run:python app.py
+  run:python multi.py
   
